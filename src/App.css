@@ -1,0 +1,36 @@
+.App{
+  width: 1024px;
+  height: 768px;
+  background-color: teal;
+}
+
+.block {
+  padding: 60px 40px 60px 20px;
+}
+
+.round {
+  border-radius: 4%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.collection .collection-item.avatar {
+  background-color: inherit !important;
+  border: none;
+}
+
+.collection {
+  border: none;
+}
+
+.divider {
+  width: 100%;
+  height: 2px;
+  max-height: 2px;
+  background-color: gray;
+}
